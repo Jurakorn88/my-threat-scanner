@@ -11,7 +11,7 @@ from typing import Dict, Any, Optional
 # ==========================================
 # 1. SETUP & STYLING
 # ==========================================
-st.set_page_config(page_title="บริษัทไม่มีให้เลยต้องทำเอง Threat Intel Scanner", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="Threat Intel Scanner", page_icon="🛡️", layout="wide")
 
 # แก้ไข CSS: เพิ่ม color: white; เพื่อให้ตัวหนังสือสีขาวชัดเจนบนพื้นหลังดำ
 st.markdown("""
@@ -234,7 +234,7 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
-    st.title("🛡️ บริษัทไม่มีให้เลยต้องทำเอง Threat Intel Scanner")
+    st.title("🛡️ Threat Intel Scanner")
     st.caption(f"Mode: {'👑 Admin (Auto-Keys)' if st.session_state.is_admin else '👤 Public (Manual Keys)'}")
 
     if 'results' not in st.session_state:
@@ -319,4 +319,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
