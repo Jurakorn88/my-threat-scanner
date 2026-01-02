@@ -11,7 +11,7 @@ from typing import Dict, Any, Optional
 # ==========================================
 # 1. SETUP & STYLING
 # ==========================================
-st.set_page_config(page_title="Pro Threat Intel Scanner", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="บริษัทไม่มีให้เลยต้องทำเอง Threat Intel Scanner", page_icon="🛡️", layout="wide")
 
 # แก้ไข CSS: เพิ่ม color: white; เพื่อให้ตัวหนังสือสีขาวชัดเจนบนพื้นหลังดำ
 st.markdown("""
@@ -319,3 +319,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
