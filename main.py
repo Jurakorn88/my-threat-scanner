@@ -234,7 +234,7 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
-    st.title("🛡️ Pro Threat Intel Scanner")
+    st.title("🛡️ บริษัทไม่มีให้เลยต้องทำเอง Threat Intel Scanner")
     st.caption(f"Mode: {'👑 Admin (Auto-Keys)' if st.session_state.is_admin else '👤 Public (Manual Keys)'}")
 
     if 'results' not in st.session_state:
@@ -317,4 +317,5 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
+
     main()
